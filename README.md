@@ -12,4 +12,4 @@ Created using C# (.NET Framework) and Windows Forms.
 ✔ Auto-close option\
 ✔ Error-handled command execution\
 ✔ Built-in activity log output\
-✔ Lightweight (no installation required)\
+✔ Lightweight (no installation required)
