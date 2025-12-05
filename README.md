@@ -1,15 +1,57 @@
-# NetworkResetUtility
-A lightweight Windows desktop tool that automates common network repair tasks such as DNS Flush, IP Release, IP Renew, and a controlled 30-second waiting period to stabilize network adapters.
-Created using C# (.NET Framework) and Windows Forms.
+# Network Reset Utility
 
-⭐ Features\
-✔ Flush DNS cache\
-✔ Release IP Address\
-✔ Wait 30 seconds (recommended for adapter recovery)\
-✔ Renew IP Address\
-✔ Live progress indicators with color-coded status messages\
-✔ Clean UI with grouped steps\
-✔ Auto-close option\
-✔ Error-handled command execution\
-✔ Built-in activity log output\
-✔ Lightweight (no installation required)
+A simple Windows utility to flush DNS, release, and renew IP addresses with animated progress bars and real-time command output.
+
+**Made by Jesrey Macasero**
+
+---
+
+## Features
+
+- Flush DNS cache
+- Release current IP addresses
+- Wait with a countdown (configurable)
+- Renew IP addresses
+- Animated progress bars for each step
+- Real-time command output displayed in a text box
+- Auto-close after completion (configurable)
+- Friendly user interface with instructions and footer
+
+---
+
+## Why This App Exists
+
+This utility helps users troubleshoot network issues by automating the common steps of resetting network adapters in Windows. It provides clear progress feedback and logs every step, making it easier for both beginners and advanced users.
+
+---
+
+## Screenshots
+
+*Add screenshots here if you have them.*
+
+---
+
+## How to Use
+
+1. Download the [latest release EXE](link-to-your-release) or clone the repository.
+2. Open the app.
+3. Click **Start** to flush DNS, release, and renew IP addresses.
+4. Watch the progress bars and command output.
+5. The app will automatically close after completion (30 seconds by default) or click **Redo** to run again.
+
+---
+
+## Requirements
+
+- Windows 10 or later
+- .NET Framework (as required by your Visual Studio project, e.g., 4.7.2)
+
+---
+
+## Installation (Optional)
+
+1. Clone the repository:
+2. Open the solution in Visual Studio.
+3. Build the project in Release mode.
+4. Run the .exe from the /bin/Release/ folder.
+
