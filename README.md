@@ -1,4 +1,4 @@
-# NetworkResetUtility\
+# NetworkResetUtility
 A lightweight Windows desktop tool that automates common network repair tasks such as DNS Flush, IP Release, IP Renew, and a controlled 30-second waiting period to stabilize network adapters.
 Created using C# (.NET Framework) and Windows Forms.
 
