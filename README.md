@@ -10,11 +10,11 @@
 
 - Flush DNS cache
 - Release current IP addresses
-- Wait with a countdown (configurable)
+- Wait with a countdown
 - Renew IP addresses
 - Animated progress bars for each step
 - Real-time command output displayed in a text box
-- Auto-close after completion (configurable)
+- Auto-close after completion
 - Friendly user interface with instructions and footer
 
 ---
@@ -46,7 +46,7 @@ This utility helps users troubleshoot network issues by automating the common st
 ## Requirements
 
 - Windows 10 or later
-- .NET Framework (as required by your Visual Studio project, e.g., 4.7.2)
+- .NET Framework (4.7.2)
 
 ---
 
